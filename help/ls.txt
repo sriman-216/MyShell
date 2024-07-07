@@ -1,0 +1,13 @@
+
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+    -U                         do not sort; list entries in directory order
+    -s,                        print the allocated size of each file, in blocks
+    -S                         sort by file size, largest first
+    -l                         use a long listing format
+    -g                         like -l, but do not list owner
+    -a,                        do not ignore entries starting with .
+

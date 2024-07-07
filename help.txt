@@ -1,0 +1,47 @@
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+    -U                         do not sort; list entries in directory order
+    -s,                        print the allocated size of each file, in blocks
+    -S                         sort by file size, largest first
+    -l                         use a long listing format
+    -g                         like -l, but do not list owner
+    -a,                        do not ignore entries starting with .
+
+
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+
+    -b                           make a backup of each existing destination file
+                                 but does not accept an argument
+    -i,                          prompt before overwrite (overrides a previous -n
+                                  option)
+    -v,                          explain what is being done
+    -n,                          do not overwrite an existing file (overrides
+                                 a previous -i option)
+
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -n,                       print line number with output lines
+  -c,                       print only a count of selected lines per FILE
+  -v,                       select non-matching lines
+  -o,                       show only nonempty parts of lines that match
+
+Usage:
+ ps [options]
+
+  -A     Select all processes.
+  -d     Select all processes except session leaders.
+  -a     Select all processes except both session leaders (see
+         getsid(2)) and processes not associated with a terminal.
+  -j     Jobs format.

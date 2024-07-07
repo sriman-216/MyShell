@@ -1,0 +1,11 @@
+
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -n,                       print line number with output lines
+  -c,                       print only a count of selected lines per FILE
+  -v,                       select non-matching lines
+  -o,                       show only nonempty parts of lines that match

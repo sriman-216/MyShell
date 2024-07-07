@@ -1,0 +1,9 @@
+
+Usage:
+ ps [options]
+
+  -A     Select all processes.
+  -d     Select all processes except session leaders.
+  -a     Select all processes except both session leaders (see
+         getsid(2)) and processes not associated with a terminal.
+  -j     Jobs format.

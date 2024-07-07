@@ -1,0 +1,14 @@
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+
+    -b                           make a backup of each existing destination file
+                                 but does not accept an argument
+    -i                           prompt before overwrite (overrides a previous -n
+                                  option)
+    -v,                          explain what is being done
+    -n,                          do not overwrite an existing file
+                        
